@@ -12,7 +12,7 @@ The victim-facing `facetwinfinder.com` URLs are ephemeral result pages. Do not l
 ## Install
 
 ```bash
-npx face-twin-mcp
+npx -y github:forrestmill-cmd/face-twin-mcp
 ```
 
 Claude Desktop / Claude Code MCP config:
@@ -22,11 +22,13 @@ Claude Desktop / Claude Code MCP config:
   "mcpServers": {
     "face-twin": {
       "command": "npx",
-      "args": ["-y", "face-twin-mcp"]
+      "args": ["-y", "github:forrestmill-cmd/face-twin-mcp"]
     }
   }
 }
 ```
+
+The npm package name `face-twin-mcp` is reserved in this repo, but the first npm publish is blocked until the account's 2FA OTP is supplied.
 
 ## Tool
 
