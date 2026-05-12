@@ -1,0 +1,47 @@
+{
+  "name": "face-twin-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for creating FaceTwin / Prank My Face AI doppelganger prank links.",
+  "type": "module",
+  "bin": {
+    "face-twin-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "ai-prank",
+    "face-twin",
+    "doppelganger",
+    "ai-art",
+    "claude"
+  ],
+  "author": "Forrest Miller",
+  "license": "MIT",
+  "homepage": "https://pleasejuststop.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forrestmill-cmd/PeopleWhoLookLikeMe.git",
+    "directory": "packages/face-twin-mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/forrestmill-cmd/PeopleWhoLookLikeMe/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
