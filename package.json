@@ -29,11 +29,10 @@
   "homepage": "https://pleasejuststop.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/forrestmill-cmd/PeopleWhoLookLikeMe.git",
-    "directory": "packages/face-twin-mcp"
+    "url": "git+https://github.com/forrestmill-cmd/face-twin-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/forrestmill-cmd/PeopleWhoLookLikeMe/issues"
+    "url": "https://github.com/forrestmill-cmd/face-twin-mcp/issues"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.24.0",
